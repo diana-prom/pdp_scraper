@@ -1,8 +1,8 @@
 {
   "name": "my_scraper",
   "version": "1.0.0",
-  "description": "scrape any premium site from real vendors",
-  "main": "./rename.js",
+  "description": "scrape any PS",
+  "main": "pdp_scraper.js",
   "scripts": {
     "start": "node pdp_scraper.js && node pdp_converter.js",
     "test": "echo \"Error: no test specified\" && exit 1"
