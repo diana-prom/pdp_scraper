@@ -1,0 +1,18 @@
+{
+  "name": "my_scraper",
+  "version": "1.0.0",
+  "description": "scrape any premium site from real vendors",
+  "main": "./rename.js",
+  "scripts": {
+    "start": "node pdp_scraper.js && node pdp_converter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diana Tinajero",
+  "license": "ISC",
+  "dependencies": {
+    "csvjson": "^5.1.0",
+    "json-2-csv": "^3.7.6",
+    "json2csv": "^5.0.1",
+    "nodejs-web-scraper": "^3.2.0"
+  }
+}
